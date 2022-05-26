@@ -1,0 +1,27 @@
+.d-none {
+    display: none;
+}
+
+.c-red {
+    color: var(--red);
+}
+
+.c-grey {
+    color: var(--grey);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.title_container {
+    margin-bottom: 2rem;
+}

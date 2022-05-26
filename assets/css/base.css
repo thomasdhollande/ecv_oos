@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Title";
+    src: url("./../fonts/Josefin_Sans/JosefinSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Subtitle";
+    src: url("./../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Content";
+    src: url("./../fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+}
+
+:root {
+    --white: #F2F2F2;
+    --red: #FF3A42;
+    --grey: #787878;
+    --black: #171717;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Content";
+    color: var(--white);
+    font-size: 1.1rem;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--black);
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Title";
+    font-size: 3rem;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Subtitle";
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4, h5, h6 {
+    font-size: 1.4rem;
+}
+
+section {
+    width: 100%;
+    padding: 2rem;
+}
+
+@media (max-width: 1025px) {
+    *, ::before, ::after {
+        font-size: 1rem;
+    }
+}
