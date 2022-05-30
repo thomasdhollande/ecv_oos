@@ -5,11 +5,21 @@ namespace Routing;
 use Controller\Controller;
 use Controller\Error404;
 use Controller\Home;
+use Controller\IaApplications;
+use Controller\IaConclusion;
+use Controller\IaJuridique;
+use Controller\IaSondage;
+use Controller\IaToday;
 
 class Router
 {
     private array $routes = [
         '/' => Home::class,
+        '/l-ia-aujourd-hui' => IaToday::class,
+        '/applications' => IaApplications::class,
+        '/juridique' => IaJuridique::class,
+        '/sondage' => IaSondage::class,
+        '/conclusion' => IaConclusion::class,
         '/404' => Error404::class
     ];
 

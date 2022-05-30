@@ -1,7 +1,7 @@
 <section id="ia">
     <div class="title_container ia_title_container">
         <div class="ia_title">
-            <h2>Qu'est ce que l'<span class="c-red bold">intelligence artificielle</span> ?</h2>
+            <h2>Qu'est ce que l'<span class="c-red bold subtitle">intelligence artificielle</span> ?</h2>
             <svg class="circle1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="50" cy="50" r="50" />
             </svg>

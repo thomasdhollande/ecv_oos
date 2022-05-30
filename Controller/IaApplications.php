@@ -2,13 +2,13 @@
 
 namespace Controller;
 
-class Error404 implements Controller
+class IaApplications implements Controller
 {
     public function render()
     {
-        $title = "Page introuvable";
+        $title = "Applications de l'IA dans le secteur médical";
         require_once('./Components/header.php');
-        require_once('./Components/error404.php');
+        require_once('./Components/ia_applications.php');
         require_once('./Components/footer.php');
     }
 }

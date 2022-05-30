@@ -10,7 +10,7 @@ class Home implements Controller
         require_once('./Components/header.php');
         require_once('./Components/hero.php');
         require_once('./Components/ia.php');
-        require_once('./Components/medical_ia.php');
+        require_once('./Components/ia_chiffres.php');
         require_once('./Components/footer.php');
     }
 }

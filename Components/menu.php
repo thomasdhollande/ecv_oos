@@ -5,13 +5,22 @@
 
     <ul class="menu_items">
         <li>
-            <a href=#>Accueil</a>
+            <a href='<?= ROOT_URL ?>'>Accueil</a>
         </li>
         <li>
-            <a href="#ia">Qu'est-ce que l'IA ?</a>
+            <a href='<?= ROOT_URL . '/l-ia-aujourd-hui' ?>'>L'IA aujourd'hui</a>
         </li>
         <li>
-            <a href="#temoignages">Témoignages</a>
+            <a href='<?= ROOT_URL . '/applications' ?>'>Applications</a>
+        </li>
+        <li>
+            <a href='<?= ROOT_URL . '/juridique' ?>'>Juridique</a>
+        </li>
+        <li>
+            <a href='<?= ROOT_URL . '/sondage' ?>'>Sondage</a>
+        </li>
+        <li>
+            <a href='<?= ROOT_URL . '/conclusion' ?>'>Conclusion</a>
         </li>
     </ul>
 

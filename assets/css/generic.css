@@ -25,3 +25,11 @@
 .title_container {
     margin-bottom: 2rem;
 }
+
+.subtitle {
+    font-family: "Subtitle";
+}
+
+.list {
+    margin-left: 2rem;
+}

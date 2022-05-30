@@ -2,13 +2,13 @@
 
 namespace Controller;
 
-class Error404 implements Controller
+class IaToday implements Controller
 {
     public function render()
     {
-        $title = "Page introuvable";
+        $title = "L'intelligence artificielle dans le secteur médical aujourd'hui";
         require_once('./Components/header.php');
-        require_once('./Components/error404.php');
+        require_once('./Components/ia_today.php');
         require_once('./Components/footer.php');
     }
 }

@@ -1,12 +1,12 @@
 <section id="hero">
     <div class="hero_left">
-        <h1>L'intelligence artificielle dans le secteur médical</h1>
+        <h1>Les avantages et inconvénients de l'<span class="c-red">intelligence artificielle</span> dans le secteur médical</h1>
         <div class="hero_left_buttons">
-            <a href="#ia">
-                En savoir plus sur l'IA
+            <a href='<?= ROOT_URL . '/l-ia-aujourd-hui' ?>'>
+                L'IA aujourd'hui
             </a>
-            <a href="#temoignages">
-                Témoignages
+            <a href='<?= ROOT_URL . '/sondage' ?>'>
+                Sondage
             </a>
         </div>
         <svg class="circle1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
